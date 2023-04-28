@@ -1,0 +1,114 @@
+.root {
+    -fx-background-color: #ECEFF4;
+}
+
+.text {
+    -fx-fill: #2E3440;
+}
+
+.label {
+    -fx-text-fill: #2E3440;
+}
+
+.button {
+    -fx-background-color: #E5E9F0;
+}
+
+.button:hover {
+    -fx-background-color: #D8DEE9;
+    -fx-border-color: #B48EAD;
+}
+
+.table-view {
+    -fx-background-color: #E5E9F0;
+    -fx-text-fill: #2E3440;
+}
+
+.table-column {
+    -fx-background-color: #E5E9F0;
+    -fx-text-fill: #2E3440;
+}
+
+/*.table-column:hover {*/
+/*    -fx-background-color: #E5E9F0;*/
+/*    -fx-text-fill: #2E3440;*/
+/*}*/
+
+/*.table-row-cell:hover {*/
+/*    -fx-background-color: #D8DEE9;*/
+/*    -fx-border-color: #B48EAD;*/
+/*}*/
+
+.change-theme-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-image: url(../img/moon.png);
+    -fx-background-position: center center;
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+}
+
+.login-humanlogo {
+    -fx-image: url(../img/human_icon.png);
+}
+
+.login-usernamefield {
+    -fx-background-color: #E5E9F0;
+    -fx-text-fill: #2E3440;
+    -fx-background-radius: 15;
+}
+
+.login-usernamefield:hover {
+    -fx-background-color: #D8DEE9;
+    -fx-border-color: #B48EAD;
+    -fx-background-radius: 15;
+}
+
+.login-usernamefield:focused {
+    -fx-background-color: #D8DEE9;
+    -fx-border-color: #B48EAD;
+    -fx-background-radius: 15;
+}
+
+.login-keylogo {
+    -fx-image: url(../img/key_icon.png);
+}
+
+.login-passwordfield {
+    -fx-background-color: #E5E9F0;
+    -fx-text-fill: #2E3440;
+    -fx-background-radius: 15;
+}
+
+.login-passwordfield:hover {
+    -fx-background-color: #D8DEE9;
+    -fx-border-color: #B48EAD;
+    -fx-background-radius: 15;
+}
+
+.login-passwordfield:focused {
+    -fx-background-color: #D8DEE9;
+    -fx-border-color: #B48EAD;
+    -fx-background-radius: 15;
+}
+
+.login-login-button {
+    -fx-background-color: #88C0D0;
+    -fx-text-fill: #E5E9F0;
+    -fx-background-radius: 15;
+}
+
+.login-login-button:hover {
+    -fx-background-color: #81A1C1;
+    -fx-background-radius: 15;
+    -fx-border-color: #D8DEE9;
+}
+
+.login-login-button:focused {
+    -fx-background-radius: 30;
+    -fx-background-color: #B48EAD;
+}
+
+.login-university-logo {
+    -fx-image: url(../img/stu_logo.png);
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="mailsTable" prefHeight="417.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bais.dais.mails_Controller">
+   <columns>
+      <TableColumn maxWidth="170.39996337890625" minWidth="47.0" prefWidth="128.79998779296875" text="Sender" fx:id="senderColumn"/>
+      <TableColumn maxWidth="384.79998779296875" minWidth="0.0" prefWidth="308.800048828125" text="Subject" fx:id="subjectColumn"/>
+      <TableColumn maxWidth="442.39996337890625" minWidth="47.0" prefWidth="93.60009765625" text="Received" fx:id="receivedColumn"/>
+      <TableColumn maxWidth="460.79998779296875" minWidth="45.60003662109375" prefWidth="52.7998046875" text="Size" fx:id="sizeColumn"/>
+   </columns>
+</TableView>
